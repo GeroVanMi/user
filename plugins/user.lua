@@ -9,4 +9,15 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require("todo-comments").setup {
+        -- configuration comes here
+        -- if left empty, it will use default settings
+      }
+    end,
+    -- opts = {}, -- This is equivalent to using the config = function() syntax
+  },
 }
