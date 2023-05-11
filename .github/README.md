@@ -3,6 +3,14 @@
 My personal configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
 ## 🛠️ Installation
+ 
+#### Install external dependencies
+
+Telescope needs ripgrep for the live grep functionality.
+
+ ```bash
+cargo install ripgrep
+ ```
 
 #### Make a backup of your current nvim and shared folder
 
