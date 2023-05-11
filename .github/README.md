@@ -1,6 +1,6 @@
-# AstroNvim User Configuration Example
+# AstroNvim User Configuration
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+My personal configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
 ## 🛠️ Installation
 
@@ -17,11 +17,11 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
 
-#### Create a new user repository from this template
+#### Create a new user repository from the AstroNvim template
 
-Press the "Use this template" button above to create a new repository to store your user configuration.
+Use the official [template](https://github.com/AstroNvim/user_example) from AstroNvim.
 
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
+You can also just clone this repository directly if you want to copy my configuration.
 
 #### Clone the repository
 
