@@ -6,6 +6,10 @@ return {
       "lua",
       "python",
       "rust",
+      "javascript",
+      "typescript",
+      "svelte",
+      "scss",
     })
   end,
 }
