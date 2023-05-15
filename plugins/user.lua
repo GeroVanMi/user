@@ -20,4 +20,11 @@ return {
     end,
     -- opts = {}, -- This is equivalent to using the config = function() syntax
   },
+  {
+    "xiyaowong/telescope-emoji.nvim",
+    event = "BufRead",
+    config = function() require("telescope").load_extension "emoji" end,
+    -- opts = {}, -- This is equivalent to using the config = function() syntax
+  },
+  --
 }
