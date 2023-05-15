@@ -10,6 +10,7 @@ return {
       "typescript",
       "svelte",
       "scss",
+      "markdown",
     })
   end,
 }
