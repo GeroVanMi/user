@@ -3,14 +3,17 @@
 My personal configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
 ## 🛠️ Installation
- 
+
 #### Install external dependencies
 
 Telescope needs ripgrep for the live grep functionality.
 
- ```bash
+```bash
 cargo install ripgrep
- ```
+```
+
+LazyGit must be installed on the local machine for its integration with NeoVim to work.  
+Follow the installation instructions on their [GitHub repository](https://github.com/jesseduffield/lazygit).
 
 #### Make a backup of your current nvim and shared folder
 
