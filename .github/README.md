@@ -6,12 +6,25 @@ My personal configuration template for [AstroNvim](https://github.com/AstroNvim/
 
 #### Install external dependencies
 
+**ripgrep**
 Telescope needs ripgrep for the live grep functionality.
 
 ```bash
 cargo install ripgrep
 ```
 
+**bottom**
+In order for `<Leader>tt` to work, we need bottom, which can be installed through cargo:
+
+```bash
+# If required, update Rust to the stable channel first
+rustup update stable
+
+# Install
+cargo install bottom --locked
+```
+
+**LazyGit**
 LazyGit must be installed on the local machine for its integration with NeoVim to work.  
 Follow the installation instructions on their [GitHub repository](https://github.com/jesseduffield/lazygit).
 
