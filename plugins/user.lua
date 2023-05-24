@@ -26,5 +26,15 @@ return {
     config = function() require("telescope").load_extension "emoji" end,
     -- opts = {}, -- This is equivalent to using the config = function() syntax
   },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    config = function()
+      require("catppuccin").setup {
+        flavour = "mocha",
+        transparent_background = false,
+      }
+    end,
+  },
   --
 }
