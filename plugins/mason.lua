@@ -12,6 +12,7 @@ return {
         "pyright",
         "tsserver",
         "svelte",
+        "tailwindcss",
       })
     end,
   },
