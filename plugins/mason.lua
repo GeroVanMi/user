@@ -13,6 +13,7 @@ return {
         "tsserver",
         "svelte",
         "tailwindcss",
+        "nix",
       })
     end,
   },

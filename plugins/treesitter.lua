@@ -11,6 +11,7 @@ return {
       "svelte",
       "scss",
       "markdown",
+      "nix",
     })
   end,
 }
