@@ -14,7 +14,7 @@ return {
         "svelte",
         "tailwindcss",
         "gopls",
-        "julia-lsp",
+        "julials",
       })
     end,
   },
