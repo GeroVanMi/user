@@ -16,6 +16,7 @@ return {
         "docker_compose_language_service",
         "svelte",
         "tailwindcss",
+        "vuels",
         "gopls",
         "julials",
       })

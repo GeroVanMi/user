@@ -13,6 +13,7 @@ return {
       "scss",
       "markdown",
       "nix",
+      "julia",
     })
   end,
 }
