@@ -17,7 +17,7 @@ return {
         "svelte",
         "tailwindcss",
         "vuels",
-        "gopls",
+        -- "gopls",
         "julials",
       })
     end,
@@ -32,6 +32,7 @@ return {
         "prettier",
         "stylua",
         "black",
+        "isort",
       })
     end,
   },
